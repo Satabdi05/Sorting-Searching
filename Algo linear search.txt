@@ -1,0 +1,21 @@
+1. accept no of elements of array a.
+    scanf( "%d", &n);
+2. accept 'n' number of values from the user.
+    scanf( "%d", &a[i]);
+3. print the elements of array a.
+     for (i = 0; i<n; i++ )
+	printf (a[i]);
+4. sort the array.
+    for (i = 0; i<n; i++ )
+    for (j = i+1; j<n; j++)
+    if (a[i]) > a[j])
+    swap a[i], a[j]
+5. print values of Array after sorting.
+6. accept the element to search
+    scanf ("%d", &x);
+7. for (i = 0; i<n; i++ )
+     compare from first element to last element.
+8. if (x = = a[i])
+    if the entered value is equal to the element.
+9. printf (x is located at location, i+1);
+10. end program.

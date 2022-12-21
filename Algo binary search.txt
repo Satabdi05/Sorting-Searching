@@ -1,0 +1,29 @@
+Algorithm
+
+1. accept no of elements of array a.
+    scanf( "%d", &n);
+2. accept 'n' number of values from the user.
+    scanf( "%d", &a[i]);
+3. print the elements of array a.
+4. sort the array.
+    for (i = 0; i<n; i++ )
+    for (j = i+1; j<n; j++)
+    if (a[i]) > a[j])
+    swap a[i], a[j]
+5. end of for loops and if.
+6. print values after sorting.
+7. accept values to search
+    scanf ("%d", &x);
+8. left = 0; right = d;
+    initialise left and right
+9. while(left<=right)
+10. mid = ( left + right )/2;
+11. if( x<a[mid])
+        right = mid-1;
+    else if( x>a[mid])
+        left = mid+1;
+    else if (x = = a[mid])
+12. print( x is located at location mid+1);
+13. break;
+14. end if and while loop.
+15. end of program.
